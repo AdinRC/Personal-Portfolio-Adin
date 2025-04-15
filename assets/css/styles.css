@@ -324,7 +324,7 @@ body.dark-theme {
 .home__perfil {
   width: 170px;
   height: 260px;
-  background: var(--gradient-color);
+  background: linear-gradient(135deg, #f7971e, #ffd200);
   border-radius: 5.5rem;
   overflow: hidden;
   display: flex;
@@ -431,7 +431,7 @@ body.dark-theme {
 }
 
 .skills__info {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2.5rem 2rem;
 }
 
